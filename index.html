@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Primary Meta Tags -->
+    <title>Delivery</title>
+    <meta name="title" content="Design By Hein Pyae Sone😘😘">
+    <meta name="description" content="Delivery drivers collect items and transport them to their destinations. Delivery drivers convey a variety of items, ranging from food to furniture, and may deliver to other businesses or to the public.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thirsty-wozniak-02b72a.netlify.app/">
+    <meta property="og:title" content="Design By Hein Pyae Sone😘😘">
+    <meta property="og:description" content="Delivery drivers collect items and transport them to their destinations. Delivery drivers convey a variety of items, ranging from food to furniture, and may deliver to other businesses or to the public.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thirsty-wozniak-02b72a.netlify.app/">
+    <meta property="twitter:title" content="Design By Hein Pyae Sone😘😘">
+    <meta property="twitter:description" content="Delivery drivers collect items and transport them to their destinations. Delivery drivers convey a variety of items, ranging from food to furniture, and may deliver to other businesses or to the public.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
+    <title>Delievery</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/atropos/atropos.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+
+        body::-webkit-scrollbar {
+            width: 12px;               /* width of the entire scrollbar */
+        }
+        body::-webkit-scrollbar-track {
+            /*background: orange;        !* color of the tracking area *!*/
+        }
+        body::-webkit-scrollbar-thumb {
+            background: rgb(220,53,69);
+            border-radius: 20px;       /* roundness of the scroll thumb */
+            /*border: 3px solid orange;  !* creates padding around scroll thumb *!*/
+        }
+        /*.scrollable-element {*/
+        /*    scrollbar-color: red yellow; !* red is for the thumb and yellow is for the track *!*/
+        /*}*/
+
+
+    .my-atropos{
+        height: auto;
+    }
+    .cursor {
+        width: 20px;
+        height: 20px;
+        /*border-color: #25eeff;*/
+        box-shadow: 0 0 50px #e55f6d;
+        border: 3px solid #dc3545;
+        border-radius: 50%;
+        position: absolute;
+        transition-duration: 200ms;
+        transition-timing-function: ease-out;
+        animation: cursorAnim .5s infinite alternate;
+        pointer-events: none;
+    }
+
+    .cursor::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        border-color: #e55f6d;
+        box-shadow: 0 0 15px #dc3545;
+        /*border: 8px solid gray;*/
+        border-radius: 50%;
+        /*opacity: 1;*/
+        top: -3px;
+        left: -3px;
+        animation: cursorAnim2 .5s infinite alternate;
+    }
+
+    @keyframes cursorAnim {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(.7);
+        }
+    }
+
+    @keyframes cursorAnim2 {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(.4);
+        }
+    }
+
+    @keyframes cursorAnim3 {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(3);
+        }
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    .expand {
+        animation: cursorAnim3 .5s forwards;
+        border: 1px solid #e0071b;
+    }
+    </style>
+</head>
+<body>
+<span class="cursor"></span>
+
+<section id="Nav">
+    <nav class="navbar navbar-expand-lg navbar-light w-100 position-fixed justify-content-between Blur shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Delievery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav__menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-danger rounded-pill fw-bold" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section id="home">
+<!--    <img src="./img/Untitled-1.png" class="w-100 img-fluid position-absolute" style="z-index: -1;" alt="">-->
+    <div class="container d-flex">
+        <div class="row justify-content-center align-items-center first-section vh-100">
+            <div class="col-12 col-lg-6 mt-5">
+
+                <div class="atropos my-atropos3 wow animate__slideInLeft">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <img src="./img/undraw_Deliveries_2r4y.png" class=" img-fluid wow animate__slideInLeft" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="atropos my-atropos col-12 col-lg-6 wow animate__slideInRight">
+                <!-- scale container (required) -->
+                <div class="atropos-scale">
+                    <!-- rotate container (required) -->
+                    <div class="atropos-rotate">
+                        <!-- inner container (required) -->
+                        <div class="atropos-inner bg-white Card-rounded">
+
+                            <div class=" d-flex align-items-center">
+                                <div class="p-3">
+                                    <h1 class="text-danger fw-bold ">Order Products <br>Faster Easier</h1>
+                                    <p class="text-black-50 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores, at blanditiis exercitationem hic in, ipsa ipsam laudantium magnam placeat quam quasi tempore vel veritatis vitae. Alias atque doloribus quibusdam.</p>
+                                    <button class="btn btn-danger rounded-pill fw-bold me-2 ">Get Start</button>
+                                    <button class="btn btn-outline-danger rounded-pill fw-bold ">View More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row justify-content-center align-items-center first-section vh-100">
+
+            <div class="col-12 col-lg-6">
+                <div class="atropos my-atropos7 wow animate__slideInLeft">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <div class=" d-flex align-items-center pe-4">
+                                    <div class="atropos wow animate__slideInRight">
+                                        <!-- scale container (required) -->
+                                        <div class="atropos-scale">
+                                            <!-- rotate container (required) -->
+                                            <div class="atropos-rotate">
+                                                <!-- inner container (required) -->
+                                                <div class="atropos-inner bg-white Card-rounded ">
+
+                                                    <div class=" py-3">
+                                                        <h1 class="d-block text-danger fw-bold text-end ">Find Out A <br> Little More About Us</h1>
+                                                        <p class="text-black-50 text-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores, at blanditiis exercitationem hic in, ipsa ipsam laudantium magnam placeat quam quasi tempore vel veritatis vitae. Alias atque doloribus quibusdam.</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-12 col-lg-6">
+                <div class="atropos my-atropos8 wow animate__slideInRight">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <img src="./img/3343892.jpg" class="img-fluid wow animate__slideInRight" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container ">
+        <div class="row justify-content-center align-items-center first-section vh-100">
+            <div class="col-12 col-lg-6">
+                <div class="atropos my-atropos9 wow animate__slideInRight">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <img src="./img/Delivery.jpg" class=" img-fluid wow animate__slideInLeft" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center ps-5">
+                <div class="atropos my-atropos10 wow animate__slideInRight">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <div class="ps-4 py-3">
+                                    <h1 class="text-danger fw-bold wow animate__slideInRight animate__slow">Your Safety is<br>Important</h1>
+                                    <p class="text-black-50 wow animate__slideInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores, at blanditiis exercitationem hic in, ipsa ipsam laudantium magnam placeat quam quasi tempore vel veritatis vitae. Alias atque doloribus quibusdam.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="card">
+    <div class="container">
+        <div class="d-flex justify-content-center mb-3">
+            <h1 class="text-center text-danger wow animate__flipInX">Some Services We <br>
+                Offer</h1>
+        </div>
+        <div class="row justify-content-center ">
+
+
+               <div class="col-6 col-lg-3">
+
+                   <div class="atropos my-atropos4 wow animate__slideInUp animate__faster">
+                       <!-- scale container (required) -->
+                       <div class="atropos-scale">
+                           <!-- rotate container (required) -->
+                           <div class="atropos-rotate">
+                               <!-- inner container (required) -->
+                               <div class="atropos-inner bg-white Card-rounded shadow">
+
+                                   <div class="card shadow-lg overflow-hidden" style="border-radius: 30px">
+                                       <img src="./img/3528496.jpg" class="card-img-top" alt="...">
+                                       <div class="card-body">
+                                           <h5 class="card-title text-center">Card title</h5>
+                                           <p class="card-text text-center">Some quick example text to build up the bulk of the card's content.</p>
+                                           <div class="d-flex justify-content-center align-items-center">
+                                               <a href="#" class="btn btn-danger rounded-pill fw-bold">Learn More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+               <div class="col-6 col-lg-3">
+
+                   <div class="atropos my-atropos5 wow animate__slideInUp animate__fast">
+                       <!-- scale container (required) -->
+                       <div class="atropos-scale">
+                           <!-- rotate container (required) -->
+                           <div class="atropos-rotate">
+                               <!-- inner container (required) -->
+                               <div class="atropos-inner bg-white Card-rounded shadow">
+
+                                   <div class="card shadow-lg overflow-hidden" style="border-radius: 30px">
+                                       <img src="./img/3707919.jpg" class="card-img-top" alt="...">
+
+                                       <div class="card-body">
+                                           <h5 class="card-title text-center">Card title</h5>
+                                           <p class="card-text text-center">Some quick example text to build up the bulk of the card's content.</p>
+                                           <div class="d-flex justify-content-center align-items-center">
+                                               <a href="#" class="btn btn-danger rounded-pill fw-bold">Learn More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+
+               </div>
+               <div class="col-6 col-lg-3 ">
+
+
+                   <div class="atropos my-atropos6 wow animate__slideInUp">
+                       <!-- scale container (required) -->
+                       <div class="atropos-scale">
+                           <!-- rotate container (required) -->
+                           <div class="atropos-rotate">
+                               <!-- inner container (required) -->
+                               <div class="atropos-inner bg-white Card-rounded shadow">
+
+                                   <div class="card shadow-lg overflow-hidden" style="border-radius: 30px">
+                                       <img src="./img/3731109.jpg" class="card-img-top" alt="...">
+                                       <div class="card-body">
+                                           <h5 class="card-title text-center">Card title</h5>
+                                           <p class="card-text text-center">Some quick example text to build up the bulk of the card's content.</p>
+                                           <div class="d-flex justify-content-center align-items-center">
+                                               <a href="#" class="btn btn-danger rounded-pill fw-bold">Learn More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container my-5">
+        <div class="row justify-content-center align-items-center mt-5 first-section">
+            <div class="col-12 col-lg-6 d-flex align-items-center ps-5">
+                <div class="atropos my-atropos11 wow animate__slideInRight">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <div class="py-3 pe-3">
+                                    <h1 class="text-danger fw-bold text-end wow animate__slideInLeft animate__slow">Watch Your <br> Delivery
+                                        At Any Time</h1>
+                                    <p class="text-black-50 text-end wow animate__slideInLeft ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores, at blanditiis exercitationem hic in, ipsa ipsam laudantium magnam placeat quam quasi tempore vel veritatis vitae. Alias atque doloribus quibusdam.</p>
+                                    <div class="d-flex justify-content-end wow animate__slideInLeft animate__fast">
+                                        <a href="#" class="btn btn-danger d-flex align-items-center me-2"><i class="fab fa-apple fs-4 fa-fw  text-white px-1"></i>App Store</a>
+                                        <a href="#" class="btn btn-danger d-flex align-items-center"><i class="fab fa-google-play fs-4 fa-fw  text-white px-1"></i>Google Play</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <div class="atropos my-atropos12 wow animate__slideInRight">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner bg-white Card-rounded">
+
+                                <img src="./img/3196533.jpg" class=" img-fluid wow animate__slideInRight" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row my-5 justify-content-center">
+
+            <div class="col-12 col-lg-5 border-end pe-2">
+                <h1 class="text-danger fw-bold text-end wow animate__slideInLeft">Contact Us <br> From Right
+                    Here</h1>
+                <p class="text-danger text-black-50 text-end wow animate__slideInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet autem dicta ipsam ipsum iste laboriosam necessitatibus odio praesentium sapiente veniam!</p>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+                <div class="wow animate__slideInRight">
+                    <p><span class="fw-bold">Phone no:</span> 09950633786</p>
+                    <p><span class="fw-bold">Email:</span> frequency3078@gmail.com</p>
+                    <p><span class="fw-bold">Location:</span> Yangon</p>
+                    <a href="#" class="btn btn-outline-danger">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="" style="min-height: 250px;background-color: #ee6262">
+
+    <div class="container ">
+        <div class="row d-flex pt-5 justify-content-center">
+            <div class="col-6 col-lg-3">
+                <h5>Delivery</h5>
+                <p>
+                    Order Products Faster
+                    Easier
+                </p>
+                <ul class="p-0 d-flex justify-content-evenly">
+                    <i class="fab fa-facebook fs-4"></i>
+                    <i class="fab fa-instagram fs-4"></i>
+                    <i class="fab fa-twitter fs-4"></i>
+                    <i class="fab fa-telegram fs-4"></i>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>
+                    Our Services
+                </h5>
+                <ul class="p-0">
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>Our Company</h5>
+                <ul class="p-0">
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>Community</h5>
+                <ul class="p-0">
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                    <li class="List">Lorem ipsum.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="node_modules/wow.js/dist/wow.min.js"></script>
+<script src="node_modules/atropos/atropos.min.js"></script>
+<script src="app.js"></script>
+<script>
+    var wow = new WOW(
+        {
+            boxClass:     'wow',      // animated element css class (default is wow)
+            animateClass: 'animate__animated', // animation css class (default is animated)
+            offset:       0,          // distance to the element when triggering the animation (default is 0)
+            mobile:       true,       // trigger animations on mobile devices (default is true)
+            live:         true,       // act on asynchronously loaded content (default is true)
+            callback:     function(box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+            },
+            scrollContainer: null,    // optional scroll container selector, otherwise use window,
+            resetAnimation: true,     // reset animation on end (default is true)
+        }
+    );
+    wow.init();
+
+    const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px; z-index : 1020;")
+    })
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500);
+        if (innerWidth < 700){
+            cursor.classList.remove("cursor")
+        }
+    })
+</script>
+</body>
+</html>

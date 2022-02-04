@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    /*height: 500px;*/
+    background-color: #ffffff;
+}
+.Blur{
+    backdrop-filter: blur(7px);
+    z-index: 1000;
+}
+.List{
+    list-style-type: none;
+}
+.Card-rounded{
+    border-radius: 30px;
+}
+.active-link{
+
+}
+.active-link {
+    display: inline-block;
+    /*   border-radius: 5px; */
+    text-decoration: none;
+    color: gray;
+
+    /* Set up the hover */
+    /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+    background-image: linear-gradient(#dc3545, #dc3545);
+    background-size: 0 3px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+}
+
+.active-link:hover {
+    /* The following line makes the underline only as wide as the text */
+    /* background-size: calc(100% - 2em) 5px, auto; */
+    background-size: 100% 3px, auto;
+}
+/*.active-link:active{*/
+/*    display: inline-block;*/
+/*    !*   border-radius: 5px; *!*/
+/*    text-decoration: none;*/
+/*    color: gray;*/
+
+/*    !* Set up the hover *!*/
+/*    !* If you aren't using autoprefix, remember to prefix the gradient for other browsers *!*/
+/*    background-image: linear-gradient(#dc3545, #dc3545);*/
+/*    background-size: 0 3px, auto;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center bottom;*/
+/*    transition: all .2s ease-out;*/
+/*}*/
